@@ -46,6 +46,15 @@ Instead, 1rem = 1em = 16px */
     padding: 0 3.2rem;
   }
 
+  .logo {
+    height: 80px;
+    margin-top: 15px;
+  }
+
+  .sticky .header .logo {
+    height: 60px;
+  }
+
   .main-nav-list {
     gap: 3.2rem;
   }
@@ -73,6 +82,24 @@ Instead, 1rem = 1em = 16px */
     padding: 0 8rem;
     grid-template-columns: 1fr;
     gap: 6.4rem;
+  }
+
+  .logo {
+    height: 70px;
+    margin-top: 10px;
+  }
+
+  .sticky .header .logo {
+    height: 50px;
+    padding: 2px 0;
+  }
+
+  .header {
+    height: 8rem;
+  }
+
+  .sticky .header {
+    height: 6rem;
   }
 
   .hero-img {
@@ -161,6 +188,7 @@ Instead, 1rem = 1em = 16px */
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
+    background: #f0fdf4;
   }
 
   .nav-open .icon-mobile-nav[name="close-outline"] {
@@ -238,6 +266,24 @@ Instead, 1rem = 1em = 16px */
     grid-template-columns: 1fr;
   }
 
+  .logo {
+    height: 50px;
+    margin-top: 5px;
+  }
+
+  .sticky .header .logo {
+    height: 40px;
+    padding: 2px 0;
+  }
+
+  .header {
+    height: 7rem;
+  }
+
+  .sticky .header {
+    height: 5.5rem;
+  }
+
   .btn,
   .btn:link,
   .btn:visited {
@@ -246,6 +292,26 @@ Instead, 1rem = 1em = 16px */
 
   .hero {
     padding: 0 3.2rem;
+  }
+
+  .logo {
+    height: 45px;
+    margin-top: 5px;
+    min-height: 35px;
+  }
+
+  .sticky .header .logo {
+    height: 35px;
+    padding: 2px 0;
+    min-height: 30px;
+  }
+
+  .header {
+    height: 6rem;
+  }
+
+  .sticky .header {
+    height: 5rem;
   }
 
   .section-hero {
