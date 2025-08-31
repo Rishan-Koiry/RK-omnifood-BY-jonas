@@ -1,6 +1,6 @@
 # RK food
 
 Landing page website for a fictional food delivery company called **"RK-food"** build using modern **HTML5** , **CSS3** , and **JAVASCRIPT**.
-!(project.png)
+![](project.png)
 
-_This project is a part of Udemy course taught by Jonas Schmedtmann and modified by RK_
+_This project is a part of udemy course taught by Jonas Schmedtmann and modifyed by RK_
